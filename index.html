@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Etch A Sketch</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Etch-A-Sketch</h1>
+            <a href="https://github.com/Yug34/">
+                <img id="githublink" src="github-mark.png" alt="link to the github repo">
+            </a>
+        </header>
+
+        <div class="slidecontainer">
+            <input id="myRange" type="range" min="1" max="64" value="32" class="slider">
+            <strong><p id="sliderval">Value: <span id="slidervalue"></span></p></strong>
+        </div>
+
+        <div id="gridcontainer">
+        </div>
+
+        <div id="buttonContainer">
+            <button id="reset">Reset</button>
+            <button id="goBlack">Black</button>
+            <button id="goRainbow">Colorful</button>
+            <button id="goErase">Erase</button>
+            <button id="goGradient">Gradient</button>
+        </div>
+        <div id="buttonContainer2">
+            <label for="colorpicker">Custom Color:</label><input type="color" id="colorpicker" name="colorpicker" value="#000000">
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>

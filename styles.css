@@ -1,0 +1,264 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+header
+{
+    display: flex;
+    justify-content: center;
+    background: black;
+    padding: 2px 2px 2px 2px;
+}
+
+header h1
+{
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+
+#githublink
+{
+    height: 80px;
+    width: 80px;
+}
+
+button {
+    margin-top: 30px;
+}
+
+#buttonContainer {
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+#buttonContainer2 {
+    margin-top: 20px;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.slidecontainer {
+    margin-top: 20px;
+    width: 100%; /* Width of the outside container */
+}
+
+#sliderval {
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+    font-family: "Agency FB", serif;
+}
+#slidervalue{
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+    font-family: "Agency FB", serif;
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 50%;
+    height: 15px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    border-radius: 5px;
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    border-radius: 50%;
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    border-radius: 50%;
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+#gridcontainer {
+    width: fit-content;
+    margin: 40px auto;
+}
+
+.row {
+    margin-left: auto;
+}
+
+.cell {
+    background-color: white;
+    border: 1px solid rgb(233, 232, 232);
+    border-collapse: collapse;
+    margin:-1px 0 0 -1px;
+    box-shadow: 2px 6px 10px -4px #000000;
+}
+
+#reset{
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+#reset:hover{
+    background-color: #3e8e41
+}
+
+#reset:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#goBlack{
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+#goBlack:hover{
+    background-color: #2a2929;
+}
+
+#goBlack:active{
+    background-color: #2a2929;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#goRainbow{
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+#goRainbow:hover{
+    background-color: #2a2929;
+}
+
+#goRainbow:active{
+    background-color: #2a2929;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#goErase{
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #c3c3c3;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+#goErase:hover{
+    background-color: #e3e3e3;
+}
+
+#goErase:active{
+    background-color: #e3e3e3;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#goGradient{
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-image: linear-gradient(to right, #a9a9a9, #000000);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+#goGradient:hover{
+    background-color: #e3e3e3;
+}
+
+#goGradient:active{
+    background-color: #e3e3e3;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#colorpicker{
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #c3c3c3;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    padding: 30px 50px;
+}
+
+#colorpicker:hover{
+    background-color: #e3e3e3;
+}
+
+#colorpicker:active{
+    background-color: #e3e3e3;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
