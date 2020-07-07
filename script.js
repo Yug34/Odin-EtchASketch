@@ -91,7 +91,7 @@ function goColor(e) {
     let valueColorG = userColor.slice(3,5).toString();
     let valueColorB = userColor.slice(5,7).toString();
 
-    colorPicker.style.backgroundColor = `#${valueColorR}${valueColorB}${valueColorG}`
+    colorPicker.style.backgroundColor = `#${valueColorR}${valueColorG}${valueColorB}`
 }
 
 function turnColor() {
