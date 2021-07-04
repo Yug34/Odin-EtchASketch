@@ -1,5 +1,4 @@
-html,body
-{
+html,body {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -11,23 +10,20 @@ body {
     background-color: #e0e0e0;
 }
 
-header
-{
+header {
     display: flex;
     justify-content: center;
     background: black;
     padding: 2px 2px 2px 2px;
 }
 
-header h1
-{
+header h1 {
     color: white;
     font-family: 'Press Start 2P', cursive;
     text-align: center;
 }
 
-#githublink
-{
+#githublink {
     height: 80px;
     width: 80px;
 }
@@ -61,7 +57,8 @@ button {
     font-size: 20px;
     font-family: "Agency FB", serif;
 }
-#slidervalue{
+
+#slidervalue {
     margin-right: auto;
     margin-left: auto;
     font-size: 20px;
@@ -125,7 +122,7 @@ button {
     box-shadow: 2px 6px 10px -4px #000000;
 }
 
-#reset{
+#reset {
     padding: 15px 25px;
     font-size: 24px;
     text-align: center;
@@ -138,17 +135,17 @@ button {
     box-shadow: 0 9px #999;
 }
 
-#reset:hover{
+#reset:hover {
     background-color: #3e8e41
 }
 
-#reset:active{
+#reset:active {
     background-color: #3e8e41;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
 
-#goBlack{
+#goBlack {
     padding: 15px 25px;
     font-size: 24px;
     text-align: center;
@@ -161,17 +158,17 @@ button {
     box-shadow: 0 9px #999;
 }
 
-#goBlack:hover{
+#goBlack:hover {
     background-color: #2a2929;
 }
 
-#goBlack:active{
+#goBlack:active {
     background-color: #2a2929;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
 
-#goRainbow{
+#goRainbow {
     padding: 15px 25px;
     font-size: 24px;
     text-align: center;
@@ -184,17 +181,17 @@ button {
     box-shadow: 0 9px #999;
 }
 
-#goRainbow:hover{
+#goRainbow:hover {
     background-color: #2a2929;
 }
 
-#goRainbow:active{
+#goRainbow:active {
     background-color: #2a2929;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
 
-#goErase{
+#goErase {
     padding: 15px 25px;
     font-size: 24px;
     text-align: center;
@@ -207,17 +204,17 @@ button {
     box-shadow: 0 9px #999;
 }
 
-#goErase:hover{
+#goErase:hover {
     background-color: #e3e3e3;
 }
 
-#goErase:active{
+#goErase:active {
     background-color: #e3e3e3;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
 
-#goGradient{
+#goGradient {
     padding: 15px 25px;
     font-size: 24px;
     text-align: center;
@@ -230,17 +227,17 @@ button {
     box-shadow: 0 9px #999;
 }
 
-#goGradient:hover{
+#goGradient:hover {
     background-color: #e3e3e3;
 }
 
-#goGradient:active{
+#goGradient:active {
     background-color: #e3e3e3;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
 
-#colorpicker{
+#colorpicker {
     font-size: 24px;
     text-align: center;
     cursor: pointer;
@@ -253,11 +250,11 @@ button {
     padding: 30px 50px;
 }
 
-#colorpicker:hover{
+#colorpicker:hover {
     background-color: #e3e3e3;
 }
 
-#colorpicker:active{
+#colorpicker:active {
     background-color: #e3e3e3;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
